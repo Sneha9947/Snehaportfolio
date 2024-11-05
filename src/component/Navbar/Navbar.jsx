@@ -9,13 +9,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
    <div className="nav">
-    <div className='port'>
     <h1>port<span>folio</span></h1>
     <input type="checkbox" id='check'/>
     <label htmlFor="check">
     <GiHamburgerMenu />
     </label>
-    </div>
   
 
   <div className='list'>

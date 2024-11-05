@@ -85,14 +85,17 @@
 .abt{
   height: 100%;
   width: 100vw;
+  display:flex;
+  flex-direction: column;
   /* background-color: brown; */
-  padding: 20px 20px 20px 0px;
+  padding: 20px 20px 20px 20px;
 }
 .abt button{
   width: 19%;
   /* height: 25%; */
   background-color: #0c2a50;
   display: flex;
+  
   align-items: center;
   justify-content: space-evenly;
   border: none;
@@ -102,16 +105,15 @@
   font-weight: 500;
   transition: 1s;
 /*  /* padding-top: 10px; */
-/* padding: 5px; */
+margin:22px 0px;
 }
 .abt1{
-    height: 40%;
+    height: 200px;
     width: 100%;
     border: 1px solid #0B090C;
     /* background-color: #1C1717; */
     background-color: rgb(44, 42, 42);
     border-radius: 20px;
-   /* margin-top: 10px; */
     padding: 4px;
     margin-left: 0px;
 }
@@ -507,6 +509,7 @@ justify-content: flex-start;
     padding: 0px;
   margin: 10 auto;
     margin-top: 0px;
+    overflow-x: hidden;
 }
 
 .ty1{
@@ -521,7 +524,7 @@ justify-content: flex-start;
     height: 100%;
     width: 100%;
     color: aliceblue;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 300;
     font-family: var(--primery-font);
     /* margin-top: 7px; */
@@ -830,7 +833,7 @@ justify-content: flex-start;
 .icondiv{
   height: 100%;
   width: 100%;
-  margin: 10px 0px;
+  margin: 20px 0px;
   /* padding: 10px; */
 
 }
@@ -884,6 +887,7 @@ justify-content: flex-start;
   grid-template-columns: repeat(2,2fr);
   grid-gap: 20px;
   background-color: rgb(44, 42, 42);;
+  margin-top: 0px;
   /* gap: 10px; */
 
 }
@@ -923,13 +927,13 @@ justify-content: flex-start;
   justify-content: center;
 }
 .whole-div111{
-  height: 60%;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  margin: 10px auto;
+  margin: 20px auto;
   padding-left: 0px;
 }
 .ft{

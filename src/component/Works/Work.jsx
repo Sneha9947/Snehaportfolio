@@ -17,7 +17,7 @@ const Work = () => {
   return (
     <>
         <div className='main'>
-          <video autoPlay controls muted loop className="background-video">
+          <video autoPlay  muted loop className="background-video">
            <source src={videos} type="video/mp4" />
          </video>
       <div className='Works'>
@@ -52,7 +52,7 @@ const Work = () => {
                        <p>The Tawam portfolio project showcases a modern and responsive design  by using HTML and CSS, & highlighting the unique skills and experiences of the individual.</p>   
                   <div className='rggtt'>
                      <h2>Get in touch</h2>
-                      <TbArrowRightToArc  />
+                      <TbArrowRightToArc                                                                                                                                                                               />
                    </div>  
 
                         </div>  
@@ -101,6 +101,7 @@ const Work = () => {
 
             </div>
             <Footer/>
+
         </div>
         </div>
 

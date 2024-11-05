@@ -1,3 +1,8 @@
+.main-contact{
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
 .maincontact1 {
   height: auto;
   width: 100%;
@@ -327,6 +332,7 @@ textarea{
     overflow-y: scroll;
     margin:  0 auto;
     padding: 20px;
+    overflow-x: hidden;
   }
   .whlecnt::-webkit-scrollbar{
     display: none;

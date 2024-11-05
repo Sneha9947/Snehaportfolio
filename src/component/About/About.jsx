@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
     <div className="main">
-    <video autoPlay controls muted loop className="background-video">
+    <video autoPlay  muted loop className="background-video">
         <source src={videos} type="video/mp4" />
       </video>
     <div className="About">
@@ -34,7 +34,7 @@ const About = () => {
             <div className="abt">
 
               
-              <button onClick={goto} className="buton66">
+              <button onClick={goto}>
                 <FaArrowLeftLong className="i" />
                 Back To Home
               </button>
@@ -166,7 +166,8 @@ const About = () => {
         </div>
       </div>
     </div>
-     
+                  
+          
     </>
   );
 };

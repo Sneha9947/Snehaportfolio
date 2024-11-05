@@ -30,8 +30,8 @@ const Contact = () => {
   }
   return (
     <>
-    <div className="'main">
-    <video autoPlay controls muted loop className="background-video">
+    <div className="main-contact">
+    <video autoPlay  muted loop className="background-video">
         <source src={videos} type="video/mp4" />
       </video>
       <div className="maincontact1">
@@ -123,13 +123,15 @@ const Contact = () => {
             </a>
 
           </div>
+          <Footer/>
+
         </div>
+
         </div>
      
       
       </div>
     </div>
-  
 
     </>
   );
