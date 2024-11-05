@@ -1,0 +1,83 @@
+.resume-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2c2b2b;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+}
+.view-page{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.download-12345{
+    height: 23%;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-12345 button{
+    height: 35%;
+    width: 14%;
+    margin-top: 30px;
+    border-radius: 13px;
+    border: 1px solid #0c2a50;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: var(--primery-font);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: black;
+}
+@media (max-width:768px){
+    .resume-page{
+        height: 100vh;
+        width: 100%;
+        background-color: #2c2b2b;
+        overflow-y: scroll;
+        overflow-x: hidden;
+       
+    }
+    .view-page{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .download-12345{
+        height: 23%;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .download-12345 button{
+        height: 35%;
+        width: 14%;
+        margin-top: 30px;
+        border-radius: 13px;
+        border: 1px solid #0c2a50;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: var(--primery-font);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        color: black;
+    }
+
+}
