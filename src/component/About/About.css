@@ -704,7 +704,7 @@ justify-content: flex-start;
 .small-box{
   height: 70%;
   width: 100%;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 200;
   font-family: var(--pera-font);
   padding: 10px;

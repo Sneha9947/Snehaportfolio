@@ -30,6 +30,7 @@ import img from "../../assests/sneha.jpeg"
 import { GrFormUpload } from "react-icons/gr";
 import { useNavigate } from "react-router-dom";
 import Footer from "../footer/Footer";
+import resume from"../../assests/myresume.jpg";
 
 const Profile = () => { 
   
@@ -358,7 +359,6 @@ function getin() {
                   Resume
                 <GrFormUpload onClick={goin} className="resume-buton"/>
                 </button>
-                <img className="botom-img" src="https://portfolio-delta-three-51.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgroup-4.a5f28ae4.png&w=48&q=75" alt="" />
               </div>
 
                 </div>              
