@@ -5,6 +5,7 @@
     overflow-x: hidden;
     position: relative;
 }
+
 .main video{
     width: 100%;
     height: 100%;
@@ -22,6 +23,10 @@
     overflow-x: hidden;
     position: absolute;
 }
+.Works::-webkit-scrollbar{
+    display: none;
+}
+
 .Work-container{
     width: 90%;
     padding: 0px;
@@ -87,17 +92,17 @@
     background-color: #241E1E;
     padding: 15px;
     border-radius: 20px;
-  
-    /* margin-top: 18px; */
     
 }
-.section1 img {
-  height: 65%;
-  width: 100%;
-  border-radius: 20px;  
-} 
+.me{
+    height: 50%;
+    width: 100%;
+    border-radius: 20px; 
+    display: flex;
+}
+
 .section1 p{
-    height: 25%;
+    height: 40%;
     color: white;
     font-size: 15px;
     font-weight: 700;
@@ -105,15 +110,21 @@
     word-spacing: 1.2px;
     text-align: justify;
     line-height: 30px; 
-    margin-top: 15px;    
+    margin-top: 15px;   
+
 }
 .right-container{
-    height: 100%;
+    height: 134vh;
     width: 60%;
+    overflow-y: scroll;
+    
     /* background-color: aqua; */
     margin-left: 20px;
     border-radius: 20px;
    
+}
+.right-container::-webkit-scrollbar{
+    display: none;
 }
 .rgt-cntnt{
     height: 100%;
@@ -132,17 +143,18 @@
     padding: 15px;
 }
 .rgt-cntnt img{
-    border-radius: 20px;
-    height: 39%;
-    width: 38%;
+    border-radius: 10px;
+    height: 180px;
+    width: 200px;
 }
 .rgt-txt{
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 700;
     font-family: var(--primery-font);
-    font-weight: 300;
-    word-spacing: 1px;
+    word-spacing: 1.2px;
+  
     text-align: justify;
-    line-height: 20px; 
+    line-height: 23px; 
     padding: 10px;
 }
 .rgt-txt h1{
@@ -206,6 +218,10 @@
         position: absolute;
     
     }
+    .Works::-webkit-scrollbar{
+        display: none;
+    }
+    
     .Work-container{
         width: 100%;
         padding: 10px 0px;
@@ -240,7 +256,7 @@
         flex-direction: column;
     }
     .left-container{
-        height: auto;
+        height: 100%;
         width: 100%;
         position: relative;
         /* padding: 10px; */

@@ -4,6 +4,7 @@ import { FaChevronDown } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -17,10 +18,12 @@ const Navbar = () => {
   
 
   <div className='list'>
-    <Link to="/">  <h2>Home<FaChevronDown className='icon' /></h2></Link>
-    <Link to="/About">  <h2>About</h2></Link>
-    <Link to="/Works">  <h2>Works<FaChevronDown className='icon' /></h2></Link>
-    <Link to="/contact">  <h2>Contact</h2></Link>
+    <NavLink to='/'>
+    <h2>Home<FaChevronDown className='icon' /></h2>
+    </NavLink>
+    <NavLink to="/About">  <h2>About</h2></NavLink>
+    <NavLink to="/Works">  <h2>Works<FaChevronDown className='icon' /></h2></NavLink>
+    <NavLink to="/contact">  <h2>Contact</h2></NavLink>
 
   </div>
 <div className='butn'>

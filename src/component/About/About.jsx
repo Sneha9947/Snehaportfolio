@@ -21,6 +21,13 @@ const About = () => {
   function goto() {
     navigate("/")
   }
+
+  let navigation=useNavigate()
+  function go() {
+    navigation("/works")
+    
+  }
+
   return (
     <>
     <div className="main">
@@ -57,11 +64,8 @@ const About = () => {
                 </div>
                 <div className="ty2">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum explicabo officia quia magni iste dolorem eum
-                    minus, vero nesciunt aliquid. Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Consequuntur officia tempore
-                    accusamus vero quod expedita aut soluta quo, eius incidunt!
+                  I am a recent graduate passionate about web development, with a strong foundation in front-end technologies. Proficient in HTML, CSS, Javascript, responsive design principles and React.js Strong
+                  understanding of web development best practices,including cross-browser compability and web accessibility.
                   </p>
                 </div>
               </div>
@@ -103,7 +107,7 @@ const About = () => {
               <div className="abt-part1">
                 <div className="sk0">
                   <div className="skil-head">
-                  <h1> MY SKILLS</h1>
+                <span><h1> MY SKILLS</h1></span>  
                   <img className="threestr" src="https://portfolio-delta-three-51.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fall-project-stars.4ac25c8e.png&w=96&q=75" alt="" />
                   </div>
                 <ul><li><h2>HTML</h2></li></ul> 
@@ -112,8 +116,7 @@ const About = () => {
                 <ul><li><h2>REACT JS</h2></li></ul>  
                 <ul><li><h2>GIT</h2></li></ul>
                 <ul><li><h2>NETLIFY</h2></li></ul>
-
-                <img src="https://portfolio-delta-three-51.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fall-service-shape.fc0d4827.png&w=96&q=75" alt="" />
+                
 
                 {/* <div className="rnd">
                 </div> */}
@@ -154,8 +157,8 @@ const About = () => {
               <img className="smt-img" src="https://portfolio-delta-three-51.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fshape-12.aded424d.png&w=64&q=75" alt="" />
             </div>
             <div className="smll">
-              <h2>Get In Touch</h2>
-              <HiOutlineArrowRight className="rgt-arrw" />
+              <h2>View Projects</h2>
+              <HiOutlineArrowRight className="rgt-arrw" onClick={go} />
             </div>
           </div>
           </div>

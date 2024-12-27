@@ -1488,9 +1488,9 @@ marquee{
       font-size: 15px;
       flex-direction: column;
       align-items: center;
+      gap: 30px;
       padding: 20px;
       justify-content:space-between;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
    .content{
       flex-direction: column;
